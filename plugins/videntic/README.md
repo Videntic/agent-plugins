@@ -83,6 +83,18 @@ Analysis and draft creation consume Plan allowances. The plugin does not publish
 content. A queued operation is not a completed result.
 
 Project information returned by tools is shared with the AI client you connect.
+The client sends tool arguments and authorized writes to
+`https://mcp.videntic.com/mcp`; OAuth sign-in uses Videntic's authorization
+service in your browser. The hosted service records tool-usage telemetry in
+PostHog, including stable actor/client identifiers, available model and
+conversation metadata, bounded outcomes, and operation metadata. Raw tool
+parameters, API responses, request headers, and private error messages are
+removed from that analytics stream. This redaction does not mean the service
+does not process the inputs needed to perform your requested operation.
+The bundle runs no local server, lifecycle hooks, or installation scripts.
+When you request repository remediation or a saved report, your assistant uses
+its own local file tools and the repository's checks; that may read or change
+the files you authorized it to work on.
 The package itself stores no credentials or customer data. You can revoke the
 connection or its grants in Videntic. Review the
 [privacy policy](https://www.videntic.com/privacy-policy) and

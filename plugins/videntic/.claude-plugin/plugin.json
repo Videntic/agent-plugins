@@ -1,7 +1,7 @@
 {
   "name": "videntic",
   "displayName": "Videntic",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Understand your Videntic Projects using AI Visibility measurements, Technical Audit evidence, and consented Project actions.",
   "author": {
     "name": "Videntic",
@@ -9,6 +9,7 @@
     "url": "https://www.videntic.com"
   },
   "homepage": "https://www.videntic.com",
+  "privacyPolicyUrl": "https://www.videntic.com/privacy-policy",
   "license": "MIT",
   "keywords": [
     "ai-visibility",
