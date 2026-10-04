@@ -86,15 +86,24 @@ Project information returned by tools is shared with the AI client you connect.
 The client sends tool arguments and authorized writes to
 `https://mcp.videntic.com/mcp`; OAuth sign-in uses Videntic's authorization
 service in your browser. The hosted service records tool-usage telemetry in
-PostHog, including stable actor/client identifiers, available model and
-conversation metadata, bounded outcomes, and operation metadata. Raw tool
-parameters, API responses, request headers, and private error messages are
-removed from that analytics stream. This redaction does not mean the service
+PostHog, including stable actor/client identifiers, available model metadata,
+bounded outcomes, and operation metadata. Raw tool parameters, API responses,
+request headers, private error messages, conversation identifiers, and automatic
+conversation summaries are excluded from that analytics stream. If you explicitly
+agree to report a missing capability, the service records your general capability
+description as feedback; never include personal information, credentials, or
+customer content in it. This redaction does not mean the service
 does not process the inputs needed to perform your requested operation.
 The bundle runs no local server, lifecycle hooks, or installation scripts.
 When you request repository remediation or a saved report, your assistant uses
 its own local file tools and the repository's checks; that may read or change
 the files you authorized it to work on.
+MCP Cloud Logging records are retained for 30 days; the central API log export
+uses 90-day retention. PostHog analytics events and saved Project records can
+remain longer than 30 days. PostHog's standard event retention is plan-based
+(one year free, seven years paid). See the privacy policy for processing,
+retention, and deletion requests.
+
 The package itself stores no credentials or customer data. You can revoke the
 connection or its grants in Videntic. Review the
 [privacy policy](https://www.videntic.com/privacy-policy) and
