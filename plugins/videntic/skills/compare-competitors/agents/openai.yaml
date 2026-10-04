@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compare Competitors"
+  short_description: "Compare measured Competitor performance and evidence."
+  default_prompt: "Compare my Brand with its tracked Competitors and explain the strongest evidence-backed gaps."

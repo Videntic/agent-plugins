@@ -1,0 +1,16 @@
+{
+  "name": "videntic",
+  "description": "Understand your Videntic Projects using AI Visibility measurements, Technical Audit evidence, and consented Project actions.",
+  "owner": {
+    "name": "Videntic",
+    "email": "info@videntic.com"
+  },
+  "plugins": [
+    {
+      "name": "videntic",
+      "source": "./plugins/videntic",
+      "description": "Understand your Videntic Projects using AI Visibility measurements, Technical Audit evidence, and consented Project actions.",
+      "version": "0.3.0"
+    }
+  ]
+}

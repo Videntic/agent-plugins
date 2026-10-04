@@ -1,0 +1,21 @@
+{
+  "name": "videntic",
+  "displayName": "Videntic",
+  "version": "0.3.0",
+  "description": "Understand your Videntic Projects using AI Visibility measurements, Technical Audit evidence, and consented Project actions.",
+  "author": {
+    "name": "Videntic",
+    "email": "info@videntic.com",
+    "url": "https://www.videntic.com"
+  },
+  "homepage": "https://www.videntic.com",
+  "license": "MIT",
+  "keywords": [
+    "ai-visibility",
+    "analytics",
+    "technical-audit",
+    "citations"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

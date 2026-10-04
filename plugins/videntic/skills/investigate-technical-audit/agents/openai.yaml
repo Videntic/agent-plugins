@@ -1,0 +1,4 @@
+interface:
+  display_name: "Investigate Technical Audit"
+  short_description: "Turn Audit Findings into evidence-backed next steps."
+  default_prompt: "Investigate my latest Technical Audit and prioritize Findings with affected-page evidence."

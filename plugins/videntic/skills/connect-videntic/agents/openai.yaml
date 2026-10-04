@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect Videntic"
+  short_description: "Connect your Workspace and select a Project."
+  default_prompt: "Connect Videntic and help me choose my first Project workflow."

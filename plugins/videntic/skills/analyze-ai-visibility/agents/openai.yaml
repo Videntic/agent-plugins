@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze AI Visibility"
+  short_description: "Analyze Videntic Project visibility and evidence."
+  default_prompt: "Analyze my Project’s latest AI Visibility and supporting evidence."
