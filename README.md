@@ -5,9 +5,9 @@ connecting your Workspace, preparing an AI Visibility brief, comparing tracked
 Competitors, and investigating Technical Audit evidence. It connects to the
 hosted Videntic MCP service using OAuth and your existing Project permissions.
 
-The repository is private during submission preparation. It is not yet listed
-in the Claude Directory. Access to this private repository is required for
-installation while review is pending.
+This repository provides public setup instructions and installable plugin
+files. The plugin is not yet listed in the Claude Directory; review and
+publication are separate from installing it from this repository.
 
 Install in Claude Code:
 
