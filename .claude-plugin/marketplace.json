@@ -10,7 +10,7 @@
       "name": "videntic",
       "source": "./plugins/videntic",
       "description": "Understand your Videntic Projects using AI Visibility measurements, Technical Audit evidence, and consented Project actions.",
-      "version": "0.3.2"
+      "version": "0.3.3"
     }
   ]
 }

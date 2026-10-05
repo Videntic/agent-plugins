@@ -10,11 +10,12 @@ Coverage: {returned page counts/limits}. Report coverage: {complete or selected}
 | --- | --- | --- | --- | --- |
 | {returned severity} | {check and Issue/Recommendation} | {returned count; inspected URL sample} | {actual observation and expectation} | {Finding/page IDs, snippet, check status} |
 
-Current implementation: {inspected state or repository unavailable}.
+Editing surface: {CMS, site builder, or source repository; access available or unavailable}.
+Current Website state: {inspected live page, CMS settings or source; unknowns}.
 Requested changes: {exact edits or implementation handoff}.
-Local validation: {checks and results, or not run}.
+Validation: {live-page, CMS preview or source checks and results; or not run}.
 Deployment: {verified status or unverified}.
 Audit verification: {later comparable run evidence or pending}.
 
 Limitations: {freshness, incomplete pages, missing scope, comparability}.
-Next step: {specific investigation, repository change, or comparable rerun}.
+Next step: {specific investigation, CMS/site-builder edit, source change, or comparable rerun}.

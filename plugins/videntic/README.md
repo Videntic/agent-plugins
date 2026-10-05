@@ -55,10 +55,13 @@ Request a Markdown file if you want to save the report; the bundled templates
 guide its structure. Existing Videntic PDF-report tools expose metadata, not a
 PDF download.
 
-For Technical Audit code remediation, the agent reads an anchored Audit Run,
-inspects your repository, and can make the code changes you request there. The
-MCP tools do not apply a Fix to your Website. Verify deployed changes with a
-later comparable Audit Run in Videntic.
+For Technical Audit remediation, the agent reads an anchored Audit Run and
+compares its evidence with your current Website. It can guide changes in
+WordPress, Webflow, another CMS or site builder, or your source repository.
+GitHub access is not required. Editing requires a separately available tool
+and your authorization; otherwise you receive an implementation handoff.
+Videntic MCP tools do not edit or publish your Website. Verify published changes
+with a later comparable Audit Run in Videntic.
 
 ## If something is missing
 
