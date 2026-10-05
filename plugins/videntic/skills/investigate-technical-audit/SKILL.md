@@ -44,10 +44,11 @@ verification boundaries. Technical Audit MCP reads do not change a Website.
 7. For a CMS or site builder, inspect available settings, templates, page content,
    and integrations through authorized tools or the user-provided interface.
    Before editing, verify whether the operation changes a draft or preview,
-   or immediately changes the live Website. Make requested edits only in a
-   confirmed draft or preview target. Live-page, template, plugin, and CMS-setting
-   changes require explicit publication consent before mutation, even when the
-   interface has no separate Publish button. If the target or publication effect
+   or immediately changes the live Website. Make requested edits in a
+   confirmed draft or preview target, or in a live target after explicit
+   publication consent. This consent is required before mutating live pages,
+   templates, plugins, or CMS settings, even when the interface has no separate
+   Publish button. If the target or publication effect
    is uncertain, provide a handoff instead of editing. Videntic's
    Technical Audit tools do not edit WordPress, Webflow, or other Websites.
    If editing access is unavailable, provide a concrete handoff for the user's
